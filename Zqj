@@ -1,0 +1,36 @@
+users
+- id
+- name
+- phone
+- email
+- role
+
+institutions
+- id
+- name
+- address
+- contact_phone
+
+visit_slots
+- id
+- institution_id
+- visit_date
+- start_time
+- end_time
+- capacity
+- reserved_count
+
+visit_reservations
+- id
+- user_id
+- institution_id
+- slot_id
+- visitor_count
+- purpose
+- status
+- created_at
+- reviewed_atpending   待審核
+approved  已核准
+rejected  已拒絕
+cancelled 已取消
+completed 已完成
